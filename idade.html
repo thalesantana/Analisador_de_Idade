@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verficador de Idade</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    
+    <header><h1>Verificador de idade</h1></header>
+    <section>
+            <div id="txt">
+                <p>Ano de Nascimento: <input type="number" name="ano" id="txtano" min="9"></p> 
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="homem" checked>
+                    <label for="homem"> Masculino</label>
+                    <input type="radio" name="radsex" id="mulher">
+                    <label for="mulher">Feminino</label> 
+                </p> 
+                <p><input type="button" id="verif" value="Verificar" onclick = "calculo()"></p>
+            </div>
+            <div id=res>
+                Preencha os dados acima para ver o resultado!
+            </div>
+                
+
+     </section>
+    <footer>
+        <p>&copy; Thales</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
