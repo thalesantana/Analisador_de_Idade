@@ -2,4 +2,4 @@
 
 Consiste em realizar um calculo de idade baseado no ano e retornar com uma imagem ilustrativa.
 
-<img src="screenshot.PNG" width = "400">
+<img src="img/screenshot.PNG" width = "400">
