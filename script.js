@@ -21,19 +21,19 @@ function calculo(){
     }
     if(idade >= 0 && idade < 12)
         {
-            img.setAttribute("src",`crianca${genero}.png`)
+            img.setAttribute("src",`img/crianca${genero}.png`)
         }
         else if(idade <= 21)
         {
-            img.setAttribute("src",`jovem${genero}.png`)
+            img.setAttribute("src",`img/jovem${genero}.png`)
         }
         else if(idade <= 50 )
         {
-            img.setAttribute("src",`adulto${genero}.png`)
+            img.setAttribute("src",`img/adulto${genero}.png`)
         }
         else 
         {
-            img.setAttribute("src",`velho${genero}.png`)
+            img.setAttribute("src",`img/velho${genero}.png`)
         }
     res.innerHTML = `Detectamos ${genero} com ${idade} anos`
     res.appendChild(img)
